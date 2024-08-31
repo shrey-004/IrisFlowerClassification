@@ -1,0 +1,28 @@
+{
+    "coefficient": {
+        "Iris-setosa": {
+            "sepal_length": -1.07687517,
+            "sepal_width": 1.1556016,
+            "petal_length": -1.92845268,
+            "petal_width": -1.82066355
+        },
+
+        "Iris-versicolor":{
+            "sepal_length": 0.58982562,
+            "sepal_width": -0.36102976,
+            "petal_length": -0.36550337,
+            "petal_width": -0.82107003
+        },
+        "Iris-verginica":{
+            "sepal_length":  0.48704955,
+            "sepal_width": -0.79457184,
+            "petal_length": 2.29395605,
+            "petal_width": 2.64173358
+        }
+    },
+    "Intercept":{
+        "Iris-setosa": -0.21096025,
+        "Iris-versicolor": 2.07632093,
+        "Iris-verginica": -1.86536068
+    }
+}
