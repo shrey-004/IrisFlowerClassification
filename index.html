@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Iris Flower Classification Project</title>
+</head>
+
+<body>
+    <header class="container">
+        <h1>Iris Flower Classification Project</h1>
+    </header>
+
+    <main class="container">
+        <form id="flowerForm">
+            <input type="text" placeholder="Enter the sepal length" id="sepal_length">
+            <input type="text" placeholder="Enter the sepal width" id="sepal_width">
+            <input type="text" placeholder="Enter the petal length" id="petal_length">
+            <input type="text" placeholder="Enter the petal width" id="petal_width">
+
+            <div class="container center">
+                <button class="btn btn-primary" type="submit">Get Prediction</button>
+            </div>
+        </form>
+
+        <section class="container">
+            <h2>Prediction: </h2>
+
+            <h3 id="prediction">
+                <!-- Add The Prediction -->
+            </h3>
+        </section>
+    </main>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="public/app.js"></script>
+</body>
+
+</html>
